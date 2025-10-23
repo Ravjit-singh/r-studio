@@ -161,7 +161,7 @@ const backendURL = "https://script.google.com/macros/s/AKfycbxledzNZPFP91QTS4a4z
 const fileList=document.getElementById("file-list");
 const tabsContainer=document.querySelector("#tabs .flex");
 const projectName=localStorage.getItem("project");
-if(!projectName){alert("No project selected.");window.location.href="login.html";}
+if(!projectName){alert("No project selected.");window.location.href="rstudio_login.html";}
 document.title=`Project: ${projectName}`;
 document.getElementById("project-title").textContent=`Project: ${projectName}`;
 
