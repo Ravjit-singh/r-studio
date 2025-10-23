@@ -229,7 +229,7 @@ document.getElementById('loginBtn').addEventListener('click', async function(){
       localStorage.setItem('userId', data.user.UserId);
       localStorage.setItem('role', data.user.Role);
       localStorage.setItem('project', data.user.Project);
-      setTimeout(()=>{ window.location.href = 'rstudio-3.html'; },1200);
+      setTimeout(()=>{ window.location.href = 'index.html'; },1200);
     }
   } catch (err) {
     footer.textContent = 'Error connecting to server!';
