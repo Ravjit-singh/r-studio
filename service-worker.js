@@ -1,4 +1,4 @@
-const CACHE_NAME = "r-studio-cache-v2";
+const CACHE_NAME = "r-studio-cache-v3";
 const urlsToCache = [
   "./",
   "./index.html",
